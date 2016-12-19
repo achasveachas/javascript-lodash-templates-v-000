@@ -10,6 +10,13 @@
         After careful consideration and a generous grant from NASA, our team has determined that a woodchuck could chuck five wood, with a standard deviation of +/- .37 wood.
       </p>
       <footer>posted by Chuck Wooden</footer>
+      <br><br>
+      <form onsubmit="postComment();return false;">
+        Name: <input type="text" id="commenterName"><br>
+        Comment: <input type="textarea" id="commentText"><br>
+        <input type="submit">
+      </form>
+      <div id="comments"></div>
     </article>
     <script src="lodash.min.js"></script>
     <script src="index.js"></script>
